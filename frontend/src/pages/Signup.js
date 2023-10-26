@@ -20,7 +20,7 @@ const Signup = () => {
       setError(null);
 
       // sending credentials to backend and get jwt user tokan and store in local storage
-      const response = await fetch("http://localhost:4000/api/user/signup", {
+      const response = await fetch("https://lingobackend.onrender.com/api/user/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
