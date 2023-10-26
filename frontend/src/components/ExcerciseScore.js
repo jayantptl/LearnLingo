@@ -22,7 +22,7 @@ const ExcerciseScore = () => {
       // backend req to fetch current excercise score
       const fetchData = async () => {
         const response = await fetch(
-          "http://localhost:4000/api/user/getExcerciseScore",
+          "https://lingobackend.onrender.com/api/user/getExcerciseScore",
           {
             method: "POST",
             headers: {
