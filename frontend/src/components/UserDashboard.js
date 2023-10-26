@@ -17,7 +17,7 @@ const UserDashboard = () => {
     try {
       const fetchData = async () => {
         const response = await fetch(
-          "http://localhost:4000/api/user/getDashboard",
+          "https://lingobackend.onrender.com/api/user/getDashboard",
           {
             method: "POST",
             headers: {
@@ -46,7 +46,7 @@ const UserDashboard = () => {
 
       const resetData = async () => {
         const response = await fetch(
-          "http://localhost:4000/api/user/resetData",
+          "https://lingobackend.onrender.com/api/user/resetData",
           {
             method: "POST",
             headers: {
