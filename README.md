@@ -33,5 +33,8 @@
 # Database Development
   MongoDB is used to store question and user related data including profiles and performance report.
 
+# Hosting & Deployment
+  Frontend is hosted on Netlify and Backend is on render
+  Deployed Link : https://learnlingo.netlify.app/
 
 
