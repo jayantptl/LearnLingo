@@ -1,6 +1,6 @@
 # Objective
    The objective of this game is to create a language learning game that helps users improve their language proficiency through interactive exercises and activities. The 
-   game include frontend UI components, backend logic for scoring, and a database to store user progress and language data.
+   game includes frontend UI components, backend logic for scoring, and a database to store user progress and language data.
 
 # Features
 1. User Registration and Authentication:
