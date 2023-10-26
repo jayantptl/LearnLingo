@@ -24,7 +24,7 @@ const EnglishQuiz = () => {
   useState(() => {
     try {
       const fetchData = async () => {
-        const response = await fetch("http://localhost:4000/api/user/getdata", {
+        const response = await fetch("https://lingobackend.onrender.com/api/user/getdata", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -211,7 +211,7 @@ const EnglishQuiz = () => {
   // update user DB
   const updateUserDB = async (curQuestion, curAnswer, curDifficulty) => {
     try {
-      const response = await fetch("http://localhost:4000/api/user/savedata", {
+      const response = await fetch("https://lingobackend.onrender.com/api/user/savedata", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
