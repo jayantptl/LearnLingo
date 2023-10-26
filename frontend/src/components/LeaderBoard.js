@@ -7,7 +7,7 @@ const LeaderBoard = () => {
     try {
       const fetchData = async () => {
         const response = await fetch(
-          "http://localhost:4000/api/user/getLeaderboard"
+          "https://lingobackend.onrender.com/api/user/getLeaderboard"
         );
         const json = await response.json();
         setLeaders(json);
